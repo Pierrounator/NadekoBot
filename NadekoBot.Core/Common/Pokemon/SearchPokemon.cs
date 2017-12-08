@@ -32,6 +32,7 @@ namespace NadekoBot.Core.Common.Pokemon
         public float HeightM { get; set; }
         public float WeightKg { get; set; }
         public string Color { get; set; }
+        public string Prevo { get; set; }
         public string[] Evos { get; set; }
         public string[] EggGroups { get; set; }
     }
